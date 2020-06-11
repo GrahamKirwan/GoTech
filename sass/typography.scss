@@ -1,0 +1,29 @@
+.heading-1 {
+    font-family: $font-primary;
+    font-size: 4.6rem;
+    color: $color-black-3;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+
+.btn-full {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 12px 35px;
+    background: linear-gradient(150deg, #6362D7, #6362D7 50%, #FF8FE2);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-empty {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    color: $color-primary;
+    padding: 12px 35px;
+    background: #fff;
+    border: 1px solid $color-primary;
+    border-radius: 4px;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+// COLOR VARIABLES
+$color-primary: #A174DB;
+$color-secondary: #49BE55;
+
+$color-white: #fff;
+$color-grey-1: #cccccc;
+$color-grey-2: #c2c2c2;
+
+$color-black-1: #666666;
+$color-black-2: #777777;
+$color-black-3: #222222;
+
+// FONT VARIABLES
+$font-primary: 'Poppins', sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem - 10px
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-black-1;
+    font-weight: 300;
+    line-height: 1;
+    font-size: 1.4rem;
+
+} 
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
